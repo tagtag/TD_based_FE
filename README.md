@@ -16,18 +16,21 @@ HOSVD$U[[5]] : x_{\ell_2,j_4} : rest period
 
 4. Identify which x_{l_5,i} is assocaited with l_1=2 and l_2=4 by investigateing G (core tensor) values
 
+```
 ZZ <-order(-abs(HOSVD$Z@data[,2,4,,]))[1:4];data.frame(arrayInd(ZZ,dim(HOSVD$Z  X1 X2 X3 HOSVD.Z.data...2..4......ZZ.])
 1 11  1  1                    -34.92058
 2  1  1  1                    -30.34751
 3  1  2  2                    -30.30752
 4  4  2  3                    -29.97348
+```
 
 Then we know that l_5=,1,4,11 are associated with l_1=2 and l_2=4
 
 5. Assign P-values to genes i and select gene using adjusted P-values.
-
+```
 P <- pchisq(rowSums(scale(HOSVD$U[[1]][,c(1,4,11)])^2),3,lower.tail=F)
 table(p.adjust(P,"BH")<0.01)
 
 FALSE  TRUE 
 42896   803 
+```
