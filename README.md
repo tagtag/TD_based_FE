@@ -7,7 +7,7 @@ You need to download GSE68077_RAW.tar from GEO
 2. Download class.csv in the current directory and execute tensor.R to generate file Z0 that includes tensor.
 x_{i,j_1,j_2,j_3,j_4} corresponds to Z[i,j_1,j_2,j_3,j_4].
 
-3. Execute batch.R in bacth mode, since it takes long time. It genetaes the file HOSVD.
+3. Execute HOSVD.R in bacth mode, since it takes long time. It genetaes the file HOSVD.
 
 HOSVD$U[[1]] : x_{l_5,i} : gene
 
