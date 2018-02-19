@@ -9,15 +9,15 @@ x_{i,j_1,j_2,j_3,j_4} corresponds to Z[i,j_1,j_2,j_3,j_4].
 
 3. Execute batch.R in bacth mode, since it takes long time. It genetaes the file HOSVD.
 
-HOSVD$U[[1]] : x_{\ell_5,i} : gene
+HOSVD$U[[1]] : x_{l_5,i} : gene
 
-HOSVD$U[[2]] : x_{\ell_1,j_1} : Control vs Treated
+HOSVD$U[[2]] : x_{l_1,j_1} : Control vs Treated
 
-HOSVD$U[[3]] : x_{\ell_2,j_2} : Tissue
+HOSVD$U[[3]] : x_{l_2,j_2} : Tissue
 
-HOSVD$U[[4]] : x_{\ell_3,j_3} : stress duration
+HOSVD$U[[4]] : x_{l_3,j_3} : stress duration
 
-HOSVD$U[[5]] : x_{\ell_2,j_4} : rest period 
+HOSVD$U[[5]] : x_{l_2,j_4} : rest period 
 
 HOSVD$Z@data : G(l_5,l_1,l_2,l_3,l_4)
 
