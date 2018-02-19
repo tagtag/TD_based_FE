@@ -19,6 +19,8 @@ HOSVD$U[[4]] : x_{\ell_3,j_3} : stress duration
 
 HOSVD$U[[5]] : x_{\ell_2,j_4} : rest period 
 
+HOSVD$Z@data : G(l_5,l_1,l_2,l_3,l_4)
+
 4. Identify which x_{l_5,i} is assocaited with l_1=2 and l_2=4 by investigateing G (core tensor) values
 
 ```
