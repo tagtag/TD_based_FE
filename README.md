@@ -1,5 +1,5 @@
 # TD_based_FE
-Sample R core used for "Tensor decomposition-based unsupervised feature extraction identifies candidate genes that induce post-traumatic stress disorder-mediated heart diseases" https://doi.org/10.1186/s12920-017-0302-1
+Sample R code used for "Tensor decomposition-based unsupervised feature extraction identifies candidate genes that induce post-traumatic stress disorder-mediated heart diseases" https://doi.org/10.1186/s12920-017-0302-1
 
 1. execute xr_all.R following the instruction in the comments in the file to generate xr_all file.
 You need to download GSE68077_RAW.tar from GEO
